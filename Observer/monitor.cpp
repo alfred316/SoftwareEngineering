@@ -1,4 +1,6 @@
-// observed monitor implimented here 
+// Alfred Shaker
+// monitor.cpp
+// cs33901
   
 #include "monitor.h" 
 #include <iostream> 
@@ -21,6 +23,8 @@ void UpperCaseMonitor::attach(Observer* obs) {
   obsObj.push_back(obs); 
 }  
 
+//remove elements from the objects
+
 void UpperCaseMonitor::detach(Observer* obs) { 
   int count = obsObj.size();
   int i;
@@ -31,9 +35,14 @@ void UpperCaseMonitor::detach(Observer* obs) {
   if(i<count)
     obsObj.erase(obsObj.begin()+i);
     }  
+
+//checks for the state 
+
 char UpperCaseMonitor::get_state() {
   return currentState; 
 }  
+
+//sets the new state of the character
 
 void UpperCaseMonitor::set_state(char newState) {
   currentState = newState; 

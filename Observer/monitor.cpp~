@@ -23,7 +23,8 @@ void UpperCaseMonitor::attach(Observer* obs) {
 
 void UpperCaseMonitor::detach(Observer* obs) { 
   int count = obsObj.size();
-  for(int i=0; i<count; i++){
+  int i;
+  for(i=0; i<count; i++){
     if(obsObj[i] == obs)
       break;
   }

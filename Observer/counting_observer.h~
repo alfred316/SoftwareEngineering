@@ -1,4 +1,4 @@
-// Definition of counting observer // 
+// Definition of counting observer 
  
 #ifndef COUNTING_OBSERVER 
 #define COUNTING_OBSERVER  
@@ -7,14 +7,15 @@
 #include <iostream> 
 #include <vector>  
 
-//============================================================================== 
 
 class CountingObserver : public Observer { 
   
- public:     CountingObserver() : _upper_count(0) { }     
+ public:    
+  CountingObserver() : upperIndex(0) { }     
   virtual void update(Observable*);     
   void show_data();    
- private:     int  _upper_count; 
+ private:
+  int  upperIndex; 
 
 }; 
 

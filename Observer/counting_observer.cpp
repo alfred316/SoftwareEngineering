@@ -1,4 +1,7 @@
-// Implementation of counting observer
+// Alfred Shaker
+// counting_observer.cpp
+// cs33901
+
 
 #include "counting_observer.h" 
 #include <iostream> 
@@ -13,7 +16,7 @@ using std::vector;
 
 void CountingObserver::update(Observable*) {   
  
-  // Don't care about state from observable 
+  // keep track of the upper case letters
    
   ++upperIndex;
  }  

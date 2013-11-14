@@ -21,7 +21,7 @@ void AccumulatingObserver::show_data() {
   // get output
 
   std::cout << "Uppers: ";    
-  for (int index = 0; index < uppersCase.size(); ++index)        
+  for (int index = 0; index < upperCase.size(); ++index)        
   std::cout << upperCase[index];   
   std::cout << "\n"; 
 

@@ -15,7 +15,7 @@ void CountingObserver::update(Observable*) {
  
   // Don't care about state from observable 
    
-  ++_upper_count;
+  ++upperIndex;
  }  
 
 

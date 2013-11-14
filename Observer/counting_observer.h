@@ -1,4 +1,7 @@
-// Definition of counting observer 
+// Alfred Shaker
+// counting_observer.h
+// cs33901
+
  
 #ifndef COUNTING_OBSERVER 
 #define COUNTING_OBSERVER  

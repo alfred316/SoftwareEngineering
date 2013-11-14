@@ -1,4 +1,7 @@
-// Implementation of accumulating observer
+// Alfred Shaker
+// accumulating_observer.cpp
+// cs33901
+
  
 #include "accumulating_observer.h" 
 #include <iostream>

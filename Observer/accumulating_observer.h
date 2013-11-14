@@ -1,4 +1,7 @@
-// Definition of accumulating observer 
+// Alfred Shaker
+// accumulating_observer.h
+// cs33901
+
  
 #ifndef ACCUMULATING_OBSERVER 
 #define ACCUMULATING_OBSERVER  

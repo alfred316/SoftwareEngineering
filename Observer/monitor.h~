@@ -1,4 +1,7 @@
-// monitor.h  
+// Alfred Shaker
+// monitor.h
+// cs33901
+
 
 #ifndef _UPPER_CASE_MONITOR 
 #define _UPPER_CASE_MONITOR  
@@ -15,8 +18,8 @@ class UpperCaseMonitor : public Observable {
   virtual void notify();     
   virtual void attach(Observer* obs);
   virtual void detach(Observer* obs);     
-  virtual char getState();     
-  virtual void setState(char newState);     
+  virtual char get_state();     
+  virtual void set_state(char newState);     
   void         watch(char);    
  private:     
   std::vector <Observer*> obsObj;              

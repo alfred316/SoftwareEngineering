@@ -1,4 +1,4 @@
-// Definition of accumulating observer // 
+// Definition of accumulating observer 
  
 #ifndef ACCUMULATING_OBSERVER 
 #define ACCUMULATING_OBSERVER  
@@ -7,7 +7,7 @@
 #include <iostream> 
 #include <vector>  
 
-//============================================================================== 
+
 
 class AccumulatingObserver : public Observer {   
  public:     virtual void update(Observable*);     
