@@ -1,0 +1,14 @@
+Estimated time: 4 hours
+
+Development times:
+   9-2: 1.5 hr
+   9-5: 0.5 hr
+   9-8: 2.0 hr
+   ...
+
+Actual time: 6 hours
+
+Estimate error: +50%
+
+Analysis:
+  The XYZ was more complicated than I thought it would be.

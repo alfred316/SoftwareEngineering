@@ -1,0 +1,21 @@
+// Definition of counting observer // 
+ 
+#ifndef COUNTING_OBSERVER 
+#define COUNTING_OBSERVER  
+#include "observer.h" 
+#include "observable.h" 
+#include <iostream> 
+#include <vector>  
+
+//============================================================================== 
+
+class CountingObserver : public Observer { 
+  
+ public:     CountingObserver() : _upper_count(0) { }     
+  virtual void update(Observable*);     
+  void show_data();    
+ private:     int  _upper_count; 
+
+}; 
+
+#endif 
